@@ -3,8 +3,6 @@ import torch
 # ذخیره کردن وزن‌های مدل
 torch.save(model.state_dict(), "my_model.pth")
 
-# حالا هر وقت بخواهی، فقط ساختار را می‌سازی و وزن‌ها را بارگذاری می‌کنی
-# model.load_state_dict(torch.load("my_model.pth"))
 import streamlit as st
 
 st.title("سیستم تشخیص ماسک")
